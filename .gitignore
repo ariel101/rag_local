@@ -1,0 +1,50 @@
+# Entorno virtual
+venv/
+.env
+*.env
+
+# Archivos de configuración locales
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+
+# Archivos de logs
+*.log
+logs/
+*.out
+*.err
+
+# Archivos de base de datos temporales
+*.sqlite3
+*.db
+
+# Archivos de cobertura y pruebas
+.coverage
+htmlcov/
+.pytest_cache/
+.cache/
+nosetests.xml
+coverage.xml
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Archivos de compilación
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Archivos de Docker
+*.pid
+*.seed
+*.bak
+
+# Archivos de datos generados
+cleaned_data/
+uploads/
+tmp/
